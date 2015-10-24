@@ -16,11 +16,11 @@ I felt that the features.txt file contained all the needed column names, and tha
 
 The processing of this dataset was relatively straightforward.
 
-1. The file paths for all files are created and normalized (accounting for different operating systems), then the files are all read in separately.
+1. The file paths for all files are created and normalized (accounting for different operating systems)
 
 2. The files are all read into dataframe variables
 
-3. The dataframe variables all have their respective column names applid
+3. The dataframe variables all have their respective column names applied
 
 4. The dataframes are then cleaned of columns that interfere with the column selection process (removing of duplicate columnnames)
 
@@ -30,7 +30,7 @@ The processing of this dataset was relatively straightforward.
 
 7. The single dataframe is filtered by row to replace the "Activity" columns ID's with human friendly names (1 = walking, etc)
 
-8. The single dataframe is grouped by SubjectID and Activity, and then the mean of each column is calculated and displayed for that unique combination of SubjectID and Activity.
+8. The single dataframe is grouped by SubjectID and Activity, and then the mean of each column is calculated and displayed for that unique combination of SubjectID and Activity
 
 ###Example output:
 
