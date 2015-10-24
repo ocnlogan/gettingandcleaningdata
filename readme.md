@@ -78,4 +78,7 @@ std(): Standard deviation
 
 Also note that the output of tidy, summarized data is grouped by SubjectID and Activity, and then the MEAN of every observation is calculated. This means that these are MEANS of MEANS and of standard deviations. Just be aware.
 
+SubjectID is the primary key, and indicates each subject (person) from whence the data comes. There are 30 unique subjects.
+
+Activity is the the activity that the subject was doing. The activity was originally recorded as an integer, and then mapped to human readable equivalents ( 1 = walking, etc). There are 6 activities per SubjectID, which you can see reflected in the tidy data output.
 The complete list of variables of each feature vector is available in 'features.txt'
